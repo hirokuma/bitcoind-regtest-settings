@@ -1,0 +1,11 @@
+DAEMON='bitcoind -regtest'
+CLI='bitcoin-cli -regtest'
+WALLET_NAME='test'
+NEWBLOCKS=101
+
+# generate.sh autoの生成間隔(秒)
+PERIOD=120
+
+# トランザクション数と生成回数の設定
+TX_COUNT=30
+BLOCKS=20
