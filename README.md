@@ -1,5 +1,9 @@
 # Bitcoin Regtest
 
+* 最初に `init.sh` か `init-with-feerate.sh` で準備
+* 2回目以降は `regtest.sh start` で開始して `regtest.sh` でCLI操作
+* ブロックを自動生成させたいなら `generate.sh auto`
+
 ## init.sh
 
 * bitcoind停止
