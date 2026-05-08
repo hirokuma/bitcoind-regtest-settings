@@ -1,3 +1,0 @@
-alias main-cli='bitcoin-cli'
-alias test4-cli='bitcoin-cli -testnet4'
-alias reg-cli='bitcoin-cli -regtest'

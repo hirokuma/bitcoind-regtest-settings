@@ -7,9 +7,32 @@
 * ウォレット作成
 * ブロック生成
 
-## with-feerate.sh
+## init-with-feerate.sh
 
 `init.sh`からfeerateを変更
+
+## regtest.sh
+
+`bitcoin-cli $@`
+
+### start
+
+```bash
+bitcoind -daemon
+bitcoin-cli loadwallet
+```
+
+### ブロック生成
+
+`generate.sh` でよいのだが
+
+#### generate
+
+`bitcoin-cli generatetoaddress 1 <ADDR>`
+
+#### generate NUM
+
+`bitcoin-cli generatetoaddress NUM <ADDR>`
 
 ## generate.sh
 
